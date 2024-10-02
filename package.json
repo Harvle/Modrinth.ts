@@ -1,0 +1,41 @@
+{
+  "name": "modrinth.ts",
+  "version": "1.0.0",
+  "description": "API wrapper for Modrinth",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "types": "./dist/index.mjs",
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harvle/Modrinth.ts.git"
+  },
+  "keywords": [
+    "Modrinth"
+  ],
+  "author": "Harvle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harvle/Modrinth.ts/issues"
+  },
+  "homepage": "https://github.com/Harvle/Modrinth.ts#readme",
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "undici": "^6.19.8"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/node-cron": "^3.0.11",
+    "tsup": "^8.2.4",
+    "typescript": "^5.6.2"
+  }
+}
